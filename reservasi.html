@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservasi Restoran</title>
+
+
+    <nav>
+        <a href="utama.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservasi.html">Reservation</a>
+        <a href="about.html">About Us</a>
+        <a href="order.html">Order Online</a>
+        <a href="login.html">Login Admin</a>
+      </nav>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            background-image: url("form.jpeg");
+            
+        }
+
+        .container {
+            width: 85%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="time"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Reservasi Restoran</h1>
+        <form action="proses_reservasi.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" id="tanggal" name "tanggal" required>
+
+            <label for="waktu">Waktu:</label>
+            <input type="time" id="waktu" name="waktu" required>
+
+            <label for="jumlah_orang">Jumlah Orang:</label>
+            <input type="number" id="jumlah_orang" name="jumlah_orang" required>
+
+            <label for="pesan_tambahan">Pesan Tambahan:</label>
+            <textarea id="pesan_tambahan" name="pesan_tambahan"></textarea>
+
+            <input type="submit" value="Reservasi">
+        </form>
+    </div>
+    <p>Untuk lebih lengkapnya silahkan hubungi kontak kami yang sudah tercantum dibagian About Us</p>
+</body>
+</html>

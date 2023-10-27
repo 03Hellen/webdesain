@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <Title> Menu Makanan </Title>
+      
+      <nav>
+        <a href="utama.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservasi.html">Reservation</a>
+        <a href="about.html">About Us</a>
+        <a href="order.html">Order Online</a>
+        <a href="login.html">Login Admin</a>
+      </nav>
+        
+      <style>
+         body{
+            background-image: url('foto.PNG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            filter:grayscale(4px);
+             
+             
+           
+         }
+         
+         h1{
+            padding: 20px;
+             color:black;
+             text-align: center;
+             text-decoration: wavy;
+             text-decoration: underline;
+         
+         }
+         
+         
+         
+         .image-gallery {
+            float: center;
+            width: 900px;
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, .2);
+            backdrop-filter: blur(3px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            display: flex; 
+            flex-wrap:wrap; 
+            justify-content:center;
+            align-items: center; 
+            color: black;
+            border-radius: 30px;
+            margin: 0 auto; 
+         }
+         
+         
+             
+             
+          
+          .image-gallery .image-item {
+             float:right;
+                width: 30%;
+                text-align: center;
+            
+            
+          }
+          .image-gallery img {
+             width: 150px;
+             height: 150px;
+             border-radius: 50%;
+             border: 3px solid #fff;
+             left: 30px;
+             transition: transform 0.2s;
+          }
+          .image-gallery .image-item:hover {
+             transform: scale(0.9);
+             
+          }
+          .image-description {
+             margin-top: 20px;
+             padding: 50px;
+             text-decoration:underline;
+         
+          }
+          @media only screen and (max-width: 800px) {
+             .image-gallery .image-item {
+                width: 40%;
+                margin: 20px;
+             }
+          }
+          @media only screen and (max-width: 300px) {
+             .image-gallery .image-item {
+                width: 100%;
+                margin: 20px;
+             }
+            }
+      </style>
+    </head>
+    <body>
+        <h1>FOOD</h1><br>
+           <div class="image-gallery">
+              <div class="image-item">
+                 <img src="kimbab.JPG" alt="Kimbab">
+                 <div class="image-description">Kimbab-Rp 25.000</div>
+              </div><br>
+              <div class="image-item">
+                 <img src="Kimchi.JPG" alt="Kimchi">
+                 <div class="image-description">Kimchi-Rp 20.000</div>
+              </div><br>
+              <div class="image-item">
+                 <img src="mandu.JPG" alt="mandu">
+                 <div class="image-description">Mandu-Rp 15.000</div>
+              </div><br>
+              <div class="image-item">
+                <img src="tteokbokki.JPG" alt="tteokbokki">
+                <div class="image-description">tteokbokki-Rp 30.000</div>
+             </div><br>
+             <div class="image-item">
+                <img src="ramyeon.JPG" alt="ramyeon">
+                <div class="image-description">ramyeon-Rp 30.000</div>
+             </div><br>
+             <div class="image-item">
+                <img src="tangsuyuk chiken.jpg" alt="tangsuyuk">
+                <div class="image-description">Tangsuyuk Chiken-Rp 35.000</div>
+             </div><br>
+           </div>
+</html>

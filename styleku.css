@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+    background-image: url("utama.jpeg" );
+    background-size: 1250px;
+    
+  }
+  
+  header {
+    background-color: burlywood;
+    padding: 0.5px;
+    color: #ffffff;
+    
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  main {
+    margin-top: 50px;
+    width:420px;
+	  border-radius:10px;
+	
+	  margin: 0 auto;
+  }
+  
+  img {
+    width: 150px;
+    height:auto;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+  
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
+    text-shadow: #ffffff;
+    
+    
+  }
+  
+  p {
+    font-size: 1em;
+    text-align: center;
+    color:whitesmoke;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  footer {
+    background-color: transparent;
+    padding: 100px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: bottom;
+    
+  }
+  
